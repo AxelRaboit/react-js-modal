@@ -56,7 +56,7 @@ const Modal = ({
                     <div className={style.modal} style={modalStyle}>
                         {closeButtonData && (
                             <div className={style.containerClose} style={containerCloseStyle}>
-                                <button onClick={closeModal} style={closeButtonStyle}>
+                                <button onClick={closeModal} style={closeButtonStyle} class={style.closeButton}>
                                     <span>&times;</span>
                                 </button>
                             </div>

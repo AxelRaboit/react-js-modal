@@ -14,7 +14,7 @@
     "type": "git",
     "url": "https://github.com/AxelRaboit/react-js-modal"
   },
-  "version": "0.2.3",
+  "version": "0.2.4",
   "main": "dist/index.js",
   "module": "dist/index.js",
   "files": [

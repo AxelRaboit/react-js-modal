@@ -67,7 +67,8 @@ var Modal = function Modal(_ref) {
     style: containerCloseStyle
   }, /*#__PURE__*/_react.default.createElement("button", {
     onClick: closeModal,
-    style: closeButtonStyle
+    style: closeButtonStyle,
+    class: _ModalModule.default.closeButton
   }, /*#__PURE__*/_react.default.createElement("span", null, "\xD7"))), childrenData && /*#__PURE__*/_react.default.createElement("div", {
     className: _ModalModule.default.containerChildren,
     style: childrenStyle
